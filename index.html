@@ -10,11 +10,10 @@
   <body>
     <h1>Simple HTML page</h1>
     <button id="button1" onclick="press()">Press here!</button>
+    <p id="text"></p>
     <script>
       function press(){
-        button = document.getElementById("button1");
-        if (button.addeventlistener(click)){
-          document.insertAdjacentHTML("beforeend","<p>Hidden message</p>");
+        document.getElementById("text").textContent = "Button was pressed!";
         }
       }
     </script>
