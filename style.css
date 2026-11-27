@@ -1,6 +1,6 @@
 body {
   font-family: system-ui, -apple-system, sans-serif;
-  background-color: #f4f6f8;
+  background-color: #228B22;
   color: #333333;
   display: flex;
   flex-direction: column;
@@ -16,7 +16,7 @@ h1 {
 }
 
 #button1 {
-  background-color: #0066cc;
+  background-color: #8B0000;
   color: #ffffff;
   border: none;
   padding: 12px 24px;
